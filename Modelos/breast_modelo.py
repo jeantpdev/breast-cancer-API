@@ -14,19 +14,19 @@ class Breast():
         datos_usuario_temporal = []
 
         datos_usuario = {
-        'edad': request.json['edad'],
-        'menopausia': request.json['menopausia'],
-        'tumorTamaño': request.json['tumorTamaño'],
+        'age': request.json['age'],
+        'menopausia': request.json['menopause'],
+        'tumorTamaño': request.json['tumorSize'],
         'invNodes': request.json['invNodes'],
-        'nodesCaps': request.json['nodesCaps'],
-        'gradoTumor': request.json['gradoTumor'],
+        'nodesCaps': request.json['nodeCaps'],
+        'gradoTumor': request.json['degMalig'],
         'breast': request.json['breast'],
         'breastQuead': request.json['breastQuead'],
         'irradiat': request.json['irradiat'],
         }
 
         datos_usuario_temporal.append(datos_usuario)
-        edad = datos_usuario['edad']
+        edad = datos_usuario['age']
         menopausia = datos_usuario['menopausia']
         tumorTamaño = datos_usuario['tumorTamaño']
         invNodes = datos_usuario['invNodes']

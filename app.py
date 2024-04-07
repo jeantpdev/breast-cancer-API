@@ -5,8 +5,7 @@ app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 # GENERALES
-app.register_blueprint(recibir_datos_prueba)
-app.register_blueprint(data_prueba)
+app.register_blueprint(todo)
 
 #Pagina de error
 def pagina_no_encontrada(error):
