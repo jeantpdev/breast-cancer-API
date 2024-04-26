@@ -1,5 +1,5 @@
 from librerias import *
-from Rutas.rutas_breast import *
+from rutas.rutas_breast import *
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
