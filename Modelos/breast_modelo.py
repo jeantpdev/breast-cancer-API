@@ -1,6 +1,6 @@
 from librerias import *
-from breast.knn import *
-from modelos.utilidades import *
+from Breast.knn import *
+from Modelos.utilidades import *
 
 class Breast():
 

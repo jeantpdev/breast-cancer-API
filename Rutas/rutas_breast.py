@@ -1,5 +1,5 @@
 from librerias import *
-from controladores.controlador_breast import *
+from Controladores.controlador_breast import *
 
 con_breast = BreastControlador()
 
