@@ -1,4 +1,4 @@
-from Modelos.breast_modelo import *
+from modelos.breast_modelo import *
 
 mod_agente = Breast()
 
