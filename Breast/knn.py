@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from Modelos.utilidades import *
 
 def cargar_data():
-    datos = pd.read_csv('/breast-cancer-ready.csv')
+    datos = pd.read_csv('/opt/render/project/src/breast-cancer-ready.csv')
     return datos
 
 def separar_data(data):
