@@ -2,10 +2,10 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from Modelos.utilidades import *
+from modelos.utilidades import *
 
 def cargar_data():
-    datos = pd.read_csv('./breast/breast-cancer-ready.csv')
+    datos = pd.read_csv('/breast/breast-cancer-ready.csv')
     return datos
 
 def separar_data(data):
